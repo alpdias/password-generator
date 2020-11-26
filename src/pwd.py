@@ -8,11 +8,11 @@ Created in 11/2020
 # imported libraries
 import random
 
-def generator(size):
+def generator(tamanho):
     
     """
     -> Simple password generator\
-    \n:param size: Password length
+    \n:param tamanho: Password length
     \n:return: Password
     """
     
@@ -27,7 +27,7 @@ def generator(size):
 
     senha = ''
 
-    for i in range(size):
+    for i in range(tamanho):
         senha += random.choice(lista[0]) # choice of characters
 
     return senha
