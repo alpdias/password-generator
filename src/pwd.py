@@ -12,8 +12,8 @@ def generator(tamanho):
     
     """
     -> Simple password generator\
-    \n:param tamanho: Password length
-    \n:return: Password
+    \n:param tamanho: Password length\
+    \n:return: Password\
     """
     
     numeros = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'] # list of numbers
@@ -31,3 +31,6 @@ def generator(tamanho):
         senha += random.choice(lista[0]) # choice of characters
 
     return senha
+
+
+print(generator(8))
