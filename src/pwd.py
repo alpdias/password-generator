@@ -33,4 +33,4 @@ def generator(tamanho):
     return senha
 
 
-print(generator(8)) # generated password
+print(generator(25)) # generated password
